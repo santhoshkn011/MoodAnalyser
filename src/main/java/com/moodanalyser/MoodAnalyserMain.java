@@ -1,15 +1,22 @@
 /*
-Given “I am in Any Mood” message Should Return HAPPY
+Refactor the code to take the mood message in Constructor
  */
 package com.moodanalyser;
 
 public class MoodAnalyserMain {
-    public String analyseMood(String message){
+    public static String message;
+    //constructor
+    public MoodAnalyserMain(String message){
+        this.message = message;
+        analyseMood();
+    }
+    public String analyseMood(){
         if (message.contains("Sad"))
-            return "Sad";
+            return "SAD";
         else if (message.contains("Happy"))
-            return "Happy";
+            return "HAPPY";
         else
-            return null;
+            return "HAPPY";
+
     }
 }
