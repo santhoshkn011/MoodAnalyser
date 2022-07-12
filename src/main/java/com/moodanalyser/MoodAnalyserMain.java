@@ -1,5 +1,6 @@
 /*
-Refactor the code to take the mood message in Constructor
+Given “I am in Happy Mood” message in Constructor Should
+Return SAD
  */
 package com.moodanalyser;
 
