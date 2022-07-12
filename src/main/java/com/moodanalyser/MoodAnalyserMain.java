@@ -16,18 +16,18 @@ public class MoodAnalyserMain {
     }
 
     public String analyseMood() {
-        try {
+        try{
             if (message.contains("Sad"))
                 return "SAD";
             else if (message.contains("Happy"))
                 return "HAPPY";
-            else
-                return "HAPPY";
+//            else
+//                return "HAPPY";
 
-        } catch (Exception e) {
-            System.out.println("Null Pointer Exception occurred.");
+        }catch (NullPointerException e){
+            System.out.println("Please Enter the Valid Mood.");
         }
-        return null;
+        return "";
     }
 }
 
