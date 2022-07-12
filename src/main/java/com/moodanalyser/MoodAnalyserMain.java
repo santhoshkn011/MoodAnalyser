@@ -1,9 +1,5 @@
 /*
-Given a Message, ability to analyse and respond Happy or Sad Mood
-- Continuation of Mood Analyser Problem in
-Junit Intro
-- Create MoodAnalyser Object
-- Call analyseMood function with message as
+GGiven “I am in Sad Mood” message Should Return SAD
  */
 package com.moodanalyser;
 
