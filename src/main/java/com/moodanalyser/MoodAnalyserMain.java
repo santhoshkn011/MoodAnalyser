@@ -1,5 +1,5 @@
 /*
-GGiven “I am in Sad Mood” message Should Return SAD
+Given “I am in Any Mood” message Should Return HAPPY
  */
 package com.moodanalyser;
 
