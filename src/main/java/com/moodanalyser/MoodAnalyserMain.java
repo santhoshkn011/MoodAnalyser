@@ -1,8 +1,7 @@
 /*
-Given “I am in Happy Mood” message in Constructor Should
-Return SAD
+Given Null Mood Should Return Happy
 
-Handle Exception if User Provides Invalid Mood
+To make this Test Case pass Handle NULL Scenario using try catch and return Happy
  */
 
 package com.moodanalyser;
@@ -27,7 +26,7 @@ public class MoodAnalyserMain {
         }catch (NullPointerException e){
             System.out.println("Please Enter the Valid Mood.");
         }
-        return "";
+        return "HAPPY";
     }
 }
 
